@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process9 Notification API Failure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        @media only screen and (max-width: 600px) {
+            p {
+                font-size: 16px;
+            }
+
+            pre {
+                font-size: 14px;
+                padding: 15px;
+            }
+
+            body {
+                padding: 10px;
+            }
+
+            .email-container {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container"
+        style="width: 100%; max-width: 600px; margin: 0 auto; padding: 20px; background-color: white;">
+        <h3 style="text-align: center;">Process9 Notification API Failure</h3>
+        <p><strong>REQUEST:</strong>
+        <pre>{{REQUEST}}</pre>
+        </p>
+        <p><strong>RESPONSE:</strong>
+        <pre>{{RESPONSE}}</pre>
+        </p>
+    </div>
+</body>
+
+</html>
